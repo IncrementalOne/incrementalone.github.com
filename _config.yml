@@ -9,13 +9,13 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : Incremental One
-tagline: -
+tagline:
 author :
   name : IncrementalOne (Io)
-  email : -
+  email :
   github : IncrementalOne
-  twitter : -
-  feedburner : -
+  twitter :
+  feedburner :
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
