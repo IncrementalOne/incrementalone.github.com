@@ -6,11 +6,11 @@ layout: latest-posts
   {% for post in site.posts limit: 10 %}
       
       <h3 style="display:inline">
-        {{ post.title }}
-        <span style=" margin-left:1em">
+        {{ post.title }} </h3>
+        <h4 style=" margin-left:1em">
           [ {{ post.date | date_to_string }} ]
-        </span>
-      </h3>
+        </h4>
+      
       <div class="well" style="margin-top:6px">
         {{ post.content | strip_html | truncatewords:75}}
         <br>
