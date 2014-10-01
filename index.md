@@ -10,6 +10,6 @@ layout: latest-posts
       <div class="well">
         {{ post.content | strip_html | truncatewords:75}}
       </div>
-      </br>
+      <br><br>
       {% endfor %}
 </ul>
