@@ -11,7 +11,7 @@ layout: latest-posts
           [ {{ post.date | date_to_string }} ]
         </span>
       </h3>
-      <div class="well" style="margin-top:4px">
+      <div class="well" style="margin-top:6px">
         {{ post.content | strip_html | truncatewords:75}}
         <br>
         <a href="{{ BASE_PATH }}{{ post.url }}">Read more...</a>
