@@ -54,7 +54,7 @@ h1, h2, h3, h4 {
 .tag_box li span {
   opacity: 0.9;
   vertical-align: middle;
-  margin-left: 2px;
+  margin-right: 2px;
   }
 
 .tag_box.inline li {
