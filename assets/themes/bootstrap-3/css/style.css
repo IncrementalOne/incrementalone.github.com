@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 .tag_box li {
   line-height: 28px; }
 
-.tag_box li i {
+.tag_box li span {
   opacity: 0.9; }
 
 .tag_box.inline li {
