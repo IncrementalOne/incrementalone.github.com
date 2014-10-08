@@ -49,11 +49,11 @@ h1, h2, h3, h4 {
   overflow: hidden; }
 
 .tag_box li {
-  line-height: 28px; }
+  }
 
 .tag_box li span {
   opacity: 0.9;
-  padding-top: 50%; }
+  }
 
 .tag_box.inline li {
   float: left; }
