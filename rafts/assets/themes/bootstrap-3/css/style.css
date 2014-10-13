@@ -21,6 +21,8 @@ h1, h2, h3, h4 {
   background-color: #fdcd60;
 }
 
+
+
 /* posts index */
 .post > h3.title {
   position: relative;
@@ -36,34 +38,19 @@ h1, h2, h3, h4 {
   text-align: left; }
 
 /* post-full*/
-.post-full.page-header {
-  padding-bottom: 0px;
-  margin-bottom: 10px;
-  border-color: #ccc;}
-
 .post-full .date {
-  margin-bottom: 26px;
+  margin-bottom: 20px;
   font-weight: bold; }
   
 .post-full .content {
-  margin-bottom: 0px; }
-
-.post-full .content hr{
-  margin-top: 2em;
   margin-bottom: 4px;
-  border-color: #ccc; }
+}
 
 /* tag_box */
-.col-md-6.inline {
-  margin-left: 4px;
-  width: auto;
-  line-height: 1.4em;
-  vertical-align: middle;}
-
 .tag_box {
   list-style: none;
   margin: 4px 0;
-  padding-left: 0; }
+  overflow: hidden; }
 
 .tag_box li {
   }
@@ -71,7 +58,8 @@ h1, h2, h3, h4 {
 .tag_box li span {
   opacity: 0.9;
   vertical-align: middle;
-  margin-right: 2px;}
+  margin-right: 2px;
+  }
 
 .tag_box.inline li {
   float: left; }

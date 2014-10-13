@@ -1,25 +1,13 @@
 /* Custom container */
-
-/* Replaced with normal container and standard footer */
-/*.container-narrow {
+.container-narrow {
   margin: 0 auto;
   max-width: 700px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
-*/
 
-/* Replaced with standard BS3 Navbar */
-/*.navbar .nav {
-  float: right; }*/
-
-/* Jekyll Bootstrap Colors */
-h1, h2, h3, h4 {
-  color: #f22430;
-}
-#footer {
-  background-color: #fdcd60;
-}
+.navbar .nav {
+  float: right; }
 
 /* posts index */
 .post > h3.title {
@@ -36,42 +24,21 @@ h1, h2, h3, h4 {
   text-align: left; }
 
 /* post-full*/
-.post-full.page-header {
-  padding-bottom: 0px;
-  margin-bottom: 10px;
-  border-color: #ccc;}
-
 .post-full .date {
-  margin-bottom: 26px;
+  margin-bottom: 20px;
   font-weight: bold; }
-  
-.post-full .content {
-  margin-bottom: 0px; }
-
-.post-full .content hr{
-  margin-top: 2em;
-  margin-bottom: 4px;
-  border-color: #ccc; }
 
 /* tag_box */
-.col-md-6.inline {
-  margin-left: 4px;
-  width: auto;
-  line-height: 1.4em;
-  vertical-align: middle;}
-
 .tag_box {
   list-style: none;
-  margin: 4px 0;
-  padding-left: 0; }
+  margin: 0;
+  overflow: hidden; }
 
 .tag_box li {
-  }
+  line-height: 28px; }
 
-.tag_box li span {
-  opacity: 0.9;
-  vertical-align: middle;
-  margin-right: 2px;}
+.tag_box li i {
+  opacity: 0.9; }
 
 .tag_box.inline li {
   float: left; }
