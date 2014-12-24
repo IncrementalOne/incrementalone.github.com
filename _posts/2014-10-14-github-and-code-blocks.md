@@ -1,8 +1,9 @@
 ---
 layout: post
-category : blog
+category : [blog]
 title: "Github and Code Blocks"
-tags : markdown
+tags : [github, markdown, code block]
+excerpt: Getting the blog up and running it taking longer than anticipated. I keep getting side-tracked by small things as "What size should my headings be?". I just finished making jekyll work it's magic locally...
 ---
 {% include JB/setup %}
 
@@ -40,7 +41,7 @@ The bad:
 
 #### Using three ~ 
 
-Place ~~~ on an empty row; followed by an optional language such as "html", "javascript" etc. End the block with another three ~. You are also supposed to be able to use ``` instead of ~~~ to create a block, but I couldn't get it to work.
+Place ~~~ on an empty row; followed by an optional language such as "html", "javascript" etc. End the block with another three ~. You are also supposed to be able to use ``` instead of ~~~ to create a block, but I couldn't get it to work. Being unable to use ``` might be because jekyll lets liquid have a go at the text before markdown gets it.
 
  ~~~html  
 \<div><p>Hello<p/>\</div>  
